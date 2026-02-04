@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+  mongo:
+    image: mongo:7
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build: ./backend
+    container_name: backend_api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+
+  frontend:
+    image: nginx:alpine
+    container_name: frontend_web
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:
+  
