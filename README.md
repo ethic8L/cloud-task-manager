@@ -6,10 +6,9 @@ The application allows users to register, log in and manage their tasks in a clo
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
-- **Name Surname**, index: XXXXX  
-*(add all group members if applicable)*
+- **Artsiom Litvinchuk**, index: 54075  
 
 ---
 
