@@ -106,7 +106,11 @@ Log out
 
 <img width="1470" height="952" alt="Screenshot 2026-02-05 at 01 56 36" src="https://github.com/user-attachments/assets/be2feae0-ee89-4a2d-8881-ae10d7394aa8" />
 
+---
+
 <img width="1470" height="956" alt="Screenshot 2026-02-05 at 01 56 58" src="https://github.com/user-attachments/assets/2c7619c1-f77d-4c6a-9527-6fd54468a458" />
+
+---
 
 <img width="1263" height="718" alt="Screenshot 2026-02-05 at 01 57 33" src="https://github.com/user-attachments/assets/a0c7a18e-7ae4-4d90-97bd-80adb07a8933" />
 
