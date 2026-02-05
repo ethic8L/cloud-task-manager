@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Task Manager</title>
+  <meta charset="UTF-8" />
+  <title>Cloud Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Task Manager dziala </h1>
+  <div class="container">
+
+    <h1>🚀 Cloud Task Manager</h1>
+
+    <div id="authBox" class="card">
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+
+      <div class="row">
+        <button onclick="login()">Login</button>
+        <button class="secondary" onclick="register()">Register</button>
+      </div>
+    </div>
+
+    <div id="taskBox" class="hidden">
+
+      <div class="card">
+        <input
+            id="taskInput"
+            placeholder="New task..."
+            onkeydown="if(event.key === 'Enter') addTask()"
+        />
+        <button onclick="addTask()">Add task</button>
+      </div>
+
+      <ul id="taskList"></ul>
+
+      <button class="danger" onclick="logout()">Logout</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
