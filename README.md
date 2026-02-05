@@ -58,5 +58,5 @@ All services are orchestrated using **Docker Compose**.
 ### 2️⃣ Clone repository
 
 ```bash
-git clone https://github.com/<your-username>/cloud-task-manager.git
+git clone https://github.com/ethic8L/cloud-task-manager.git
 cd cloud-task-manager
