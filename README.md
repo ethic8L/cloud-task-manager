@@ -95,12 +95,12 @@ Backend API: http://localhost:3000
 
 ## 🧪 Application Usage
 
-Register a new user
-Log in
-Add new tasks
-Change task status (TODO / DONE)
-Delete tasks
-Log out
+- Register a new user
+- Log in
+- Add new tasks
+- Change task status (TODO / DONE)
+- Delete tasks
+- Log out
 
 ## 📸 Screenshots
 
